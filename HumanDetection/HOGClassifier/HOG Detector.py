@@ -29,7 +29,7 @@ def checkHOG(hogDes,gray_img):
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector( cv2.HOGDescriptor_getDefaultPeopleDetector() )
 
-cap = cv2.VideoCapture('../../Data/vid3_IR.avi')
+cap = cv2.VideoCapture('../../../Dataset/Videos/heshanfernando.mp4')
 
 while(cap.isOpened()):
     ret, frame = cap.read()

@@ -3,7 +3,7 @@ import cv2
 
 human_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_mcs_upperbody.xml')
 
-cap = cv2.VideoCapture('../../Data/vid3_IR.avi')
+cap = cv2.VideoCapture('../../../Dataset/Videos/heshanfernando.mp4')
 
 
 

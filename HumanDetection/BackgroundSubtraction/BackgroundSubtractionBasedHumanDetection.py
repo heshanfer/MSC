@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture("../../Data/vid3_IR.avi")
+cap = cv2.VideoCapture("../../../Dataset/Videos/heshanfernando.mp4")
 fgbg = cv2.createBackgroundSubtractorMOG2()
 
 fgbg.setHistory(20)
